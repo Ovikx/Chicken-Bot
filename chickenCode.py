@@ -1,6 +1,3 @@
-# clientID = 672134264124473345
-inviteLink = 'https://discordapp.com/api/oauth2/authorize?client_id=672134264124473345&scope=bot&permissions=262208'
-
 # IMPORT STUFF
 import discord
 from discord.ext import commands
@@ -9,7 +6,7 @@ from discord.ext import commands
 with open('chickenToken.txt', 'r') as tokenF: # make sure the .txt file that contains the token is called 'chickenToken.txt'
     token = tokenF.read()
 
-# CREATE BOT OBJECT
+# CREATE BOT
 bot = commands.Bot(command_prefix='!', case_insensitive=True) # change the prefix if you want ig
 
 # READY THE BOT
